@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>return new jquery.prototype.init</title>
+</head>
+<body>
+<script type="text/javascript">
+	//constructor
+	function Aaa(){
+
+	}
+
+	Aaa.prototype.init=function(){
+		console.log("init")
+	}
+	Aaa.prototype.say=function(){
+		console.log("say sth");
+	}
+
+	//use
+	var aaa=new Aaa();
+	aaa.init();
+	aaa.say();
+
+
+
+
+</script>
+</body>
+</html>
